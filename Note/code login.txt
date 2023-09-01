@@ -1,0 +1,23 @@
+<Row>
+              <Col>
+                <label className='p-2 f'>
+                  <b>Email address</b>
+                </label>
+                <input
+                  type='email'
+                  className='form-width log-ml form-control'
+                  placeholder='Enter email'
+                  {...register("email", {
+                  required: true,
+                  pattern: /^[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,}$/i,
+                })}
+                />
+              </Col>
+              <Col>
+              {errors.email && (
+                <span className='rg-font'>
+                  Please enter a valid email address
+                </span>
+              )}
+            </Col>
+            </Row>

@@ -1,0 +1,43 @@
+class NameForm extends React.Component {
+  constructor(props) {
+    super(props);
+    this.state = {value: ''};
+
+    this.handleChangeUserName = this.handleChangeUserName.bind(this);
+    this.handleChangePassword = this.handleChangePassword.bind(this);
+    this.handleSubmit = this.handleSubmit.bind(this);
+  }
+
+  handleChangeUserName(event) {
+    this.setState({value1: event.target.value});
+  }
+   handleChangePassword(event) {
+    this.setState({value2: event.target.value});
+  }
+
+  handleSubmit(event) {
+    alert('A name was submitted: ' + this.state.value);
+    event.preventDefault();
+  }
+
+  render() {
+    return (
+      <form onSubmit={this.handleSubmit}>
+        
+        <label>UserName: </label>
+        
+          <input type="text" value={this.state.value1} onChange={this.handleChangeUserName} /><br/><br/>
+        
+         <label> Password: </label>
+        
+          <input type="password" value={this.state.value2} onChange={this.handleChangePassword} /> <br/><br/>
+        
+        <input type="submit" value="Submit" />
+        
+      </form>
+    );
+  }
+}
+
+const root = ReactDOM.createRoot(document.getElementById('root'));
+root.render(<NameForm />);

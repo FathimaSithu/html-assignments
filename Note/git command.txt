@@ -1,0 +1,30 @@
+user@DESKTOP-37NQQD9 MINGW64 /e/F folder/bcg-frontend (master)
+
+
+$ git checkout develop*/command/*
+
+
+Switched to a new branch 'develop'
+M       public/assets/Logo.svg
+branch 'develop' set up to track 'origin/develop'.
+
+user@DESKTOP-37NQQD9 MINGW64 /e/F folder/bcg-frontend (develop)
+
+
+$ git pull origin develop*/command/*
+
+
+From https://bitbucket.org/goodbitstech/bcg-frontend
+ * branch            develop    -> FETCH_HEAD
+Already up to date.
+
+user@DESKTOP-37NQQD9 MINGW64 /e/F folder/bcg-frontend (develop)
+
+
+$ git checkout -b feature/product_unittest*/command/*
+
+
+Switched to a new branch 'feature/product_unittest'
+
+user@DESKTOP-37NQQD9 MINGW64 /e/F folder/bcg-frontend (feature/product_unittest)
+$

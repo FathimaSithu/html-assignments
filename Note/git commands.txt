@@ -1,0 +1,28 @@
+git config
+git init
+git clone
+git add
+git commit
+:qa (quit or escape)
+git diff
+  >git diff : shows file differences not yet staged
+  >git diff-staged : differences b/n files in the staging area and latest version present.
+  >git diff[first branch][second branch] : difference b/n 2 branches mentioned.
+git reset
+  >git reset [file]:unstages the file,but preserves the file contents
+  >git reset [commit]:undoes all commits after the specified commit and preserve changes locally.
+  >git reset hard[commit]: discards all history and goes back to the specified commit.
+git rm[file]
+git log
+  >git log
+  >git log follow[file]
+git show
+git tag
+git remote
+git push
+git stash
+git status
+git checkout master
+git branch
+git pull origin master
+git checkout -b 'branchname'

@@ -1,0 +1,15 @@
+<div>
+            <img alt="contrast img" src="\assests\images\contrast.png" className='img '></img>
+            <div className='overlay'>
+                <div className='img_text'>
+                    <h2>
+                        A SATISFIED CUSTOMER IS THE BEST BUSSINESS STRAGEGY FOR ALL
+                    </h2><br />
+                    <hr />
+                    <h3>
+                        WE BELIEVE EVERYONE DESERVES
+                    </h3>
+                    <h3>THE BEST SERVICE </h3>
+                </div>
+            </div>
+        </div>

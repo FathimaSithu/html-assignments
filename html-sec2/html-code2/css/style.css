@@ -1,0 +1,142 @@
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&display=swap");
+
+html {
+    font-family: 'Manrope', sans-serif !important;
+}
+
+body {
+    width: 100%;
+    height: auto;
+    background-color: #ffffff;
+    padding: 0;
+    margin: 0;
+    overflow-x: hidden; 
+}
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
+    outline: none;
+}
+.main{
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+.title h3 {
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 44px;
+    /* justify-content: center; */
+    letter-spacing: -0.015em;
+    text-transform: uppercase;
+    color: #7C5FB3;
+    /* display: flex; */
+
+}
+
+.textCenter {
+    text-align: center;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    margin:0 7% 0 7% ;
+
+
+}
+
+.secIcon img {
+    height: 42px;
+    width: 42px;
+
+}
+
+.secIcon {
+    background: #00b5c6;
+    display: grid;
+    object-fit: contain;
+    height: 75px;
+    width: 75px;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.column {
+    height: 305px;
+    width: 447px;
+    background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        margin: 0 10px 0 10px;
+
+}
+
+.column1 {
+    background-image: url("../image/Home-page-4.png");
+}
+
+.column2 {
+    background-image: url("../image/Home-page-5.png");
+}
+.column3 {
+    background-image: url("../image/Home-page-6.png");
+}
+
+.text1 {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 27px;
+    text-align: center;
+    text-transform: uppercase;
+    
+}
+
+.text2 {
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 23px;
+    text-align: center;
+    text-transform: capitalize;
+}
+/* section2 */
+.sec2{
+    position: relative;
+}
+/* Media Query */
+
+/* Laptop/tv 1920x1080px */
+@media screen and (max-width: 1920px) {}
+
+/* laptop */
+
+@media screen and (max-width: 1600px) {}
+
+@media screen and (max-width: 1440px) {}
+
+/* SD - Standard Definition: 1366x768 px */
+@media screen and (max-width: 1366px) {
+
+}
+
+@media screen and (max-width: 1280px) {}
+
+
+
+/* Tablet */
+@media screen and (max-width: 1024px) {}
+
+@media screen and (max-width: 768px) {}
+
+
+/* Mobile Devices */
+
+@media screen and (max-width: 480px) {}
+
+@media screen and (max-width: 375px) {}
+
+@media screen and (max-width: 320px) {}

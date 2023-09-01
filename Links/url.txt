@@ -1,0 +1,25 @@
+https://react-bootstrap.github.io/forms/floating-labels/
+https://reactjs.org/docs/forms.html
+https://www.w3schools.com/REACT/react_conditional_rendering.asp
+https://www.edureka.co/blog/git-commands-with-example/
+https://getbootstrap.com/docs/4.0/getting-started/introduction/
+https://www.geeksforgeeks.org/introduction-object-oriented-programming-javascript/
+https://getbootstrap.com/docs/4.0/components/navbar/
+https://www.freecodecamp.org/news/how-to-use-redux-in-reactjs-with-real-life-examples-687ab4441b85/
+https://redux.js.org/tutorials/essentials/part-1-overview-concepts
+https://www.simplilearn.com/tutorials/reactjs-tutorial/react-with-redux
+https://www.edureka.co/blog/react-redux-tutorial/
+https://www.pluralsight.com/guides/how-to-write-redux-reducer
+https://redux.js.org/tutorials/fundamentals/part-3-state-actions-reducers
+
+https://www.studytonight.com/bootstrap/how-to-align-bootstrap-5-navbar-items-to-the-right#:~:text=Using%20space%20utility,the%20nav%20items%20to%20right
+1.The .mx-auto class can be used to align the items to the center of the navbar.
+2.The .ms-auto class is used to align items to the right of the navbar.
+3.The .me-auto class is used to align items to the left of that navbar.
+HTML,CSS training
+https://react-icons.github.io/react-icons/search?q=cust
+https://www.w3schools.com/cssref/playdemo.asp?filename=playcss_justify-content&preval=space-around
+https://www.toptal.com/developers/webdevchecklist
+https://jonsuh.com/hamburgers/
+https://www.amcharts.com/demos/column-with-rotated-series/
+https://caniuse.com/?search=table

@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800&display=swap');
+
+html {
+
+    font-family: 'Poppins', sans-serif !important;
+}
+
+body {
+    width: 100%;
+    height: auto;
+    background-color: #000;
+    padding: 0;
+    margin: 0;
+    overflow-x: hidden !important;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5 {
+    margin: 0;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
+    outline: none;
+}
+
+button {
+    outline: none;
+    border: none;
+    cursor: pointer;
+}
+
+/* gallery */
+.main {
+
+    color: #fff;
+    height: auto;
+    width: 100%;
+}
+
+.tileWrap {
+    margin: 40px;
+    display: flex;
+}
+
+img {
+    width: 100%;
+    height: auto;
+    object-fit: contain;
+}
+
+.tile {
+    width: 25%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.tileImg {
+    height: 300px;
+    width: 100%;
+    overflow: hidden;
+}
+
+.tileContent h2 {
+    text-align: center;
+    font-size: 55px;
+    font-weight: 500;
+    line-height: 115px;
+}
+
+.tileContent p {
+    font-size: 25px;
+    font-weight: 300;
+    line-height: 50px;
+}
+
+.pSize {
+    font-size: 30px;
+    font-weight: 500;
+}
+
+.box {
+    width: 447px;
+    height: 75px;
+    border: #fff solid;
+    margin-top: 20px
+}
+
+.boxContent {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 15px;
+}
+
+.boxContent p {
+    font-size: 25px;
+
+}
