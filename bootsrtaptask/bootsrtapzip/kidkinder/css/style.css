@@ -1,0 +1,479 @@
+html {
+  font-family: 'Handlee', cursive;
+  font-family: 'Nunito', sans-serif;
+font-family: 'Nunito Sans', sans-serif
+  }
+  
+  body {
+    line-height: 1.5;
+    min-height: 100vh;
+    background: #fff 0% 0% no-repeat;
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    overflow-x: hidden;
+  }
+  
+  *,
+  *:before,
+  *:after {
+    box-sizing: border-box;
+    outline: none;
+  }
+  
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  img {
+    display: block;
+    max-width: 100%;
+    object-fit: contain;
+  }
+  
+  button {
+    outline: none;
+    border: none;
+    cursor: pointer;
+  }
+  
+  button,
+  select,
+  input,
+  textarea {
+    font: inherit;
+  }
+  
+  a {
+    color: inherit;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  
+  ::-moz-selection {
+    background: #fddde8;
+    color: #9796b7;
+    text-shadow: none;
+  }
+  
+  ::selection {
+    background: #4dcbd7;
+    color: #ffffff;
+    text-shadow: none;
+  }
+  
+  audio,
+  canvas,
+  iframe,
+  img,
+  svg,
+  video {
+    vertical-align: middle;
+  }
+  
+  textarea {
+    resize: vertical;
+  }
+  
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6,
+  p {
+    margin: 0;
+  }
+  
+  fieldset {
+    border: 0;
+    margin: 0;
+  }
+  
+  .hidden,
+  [hidden] {
+    display: none !important;
+  }
+  
+  .clearfix::before,
+  .clearfix::after {
+    content: " ";
+    display: table;
+  }
+  
+  .clearfix::after {
+    clear: both;
+  }
+  
+  body::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  body::-webkit-scrollbar-thumb {
+    background-color: #7C5FB3 !important;
+    border-radius: 1px;
+    border: 3px solid #7C5FB3;
+  }
+  
+  body::-webkit-scrollbar-track {
+    background: #9e9e9e47;
+  }
+  
+  
+  .invisible {
+    visibility: hidden;
+  }
+  /* navbar */
+  .commomPadding{
+    padding: 0 5%;
+  }
+  .textClr{
+    color: #17a2b8;
+    font-family:'Handlee';
+    font-weight: bolder;
+  }
+  a.textClr:hover {
+    color: #0f6674 !important;
+  }
+  .btnClr {
+    background-color: #17a2b8;
+    border-color: #17a2b8;
+    border-radius: 30px;
+    color: #fff;
+    padding: 8px 17px;
+    margin: 11px 0;
+}
+/* banner */
+.banner{
+    background-color: #17a2b8;
+    height: auto;
+    width: 100%;
+    
+}
+.bannerContent{
+  font-family: 'Handlee', cursive;
+
+}
+.moreButton {
+  background-color: rgb(69, 69, 106);
+  border-color: rgb(69, 69, 106);
+  border-radius: 30px;
+  color: #fff;
+  padding: 13px 34px;
+  font-family: 'Nunito', sans-serif;
+}
+/* facilities */
+.fontSize{
+  font-size: 70px;
+}
+.tileText{
+  font-family: 'Handlee', cursive;
+}
+.tileIcon {
+  margin-top: 24px;
+}
+.tileContent {
+  padding: 2px 28px;
+}
+.tileText p{
+  font-size: 20px;
+
+}
+/* about us */
+.aboutText h6 {
+  color: #17a2b8;
+  font-weight:normal;
+}
+
+.aboutText h1 {
+  font-family: "Handlee", cursive;
+  font-weight: bold;
+  line-height: 1.2;
+  color: #00394f;
+}
+.aboutText p {
+  margin: 0;
+  font-family: "Nunito", sans-serif;
+  font-weight: 400;
+  font-size: 19px;
+  line-height: normal;
+  color: #666666;
+}
+.line {
+  height: 2px;
+  width: 50px;
+  background: #17a2b8;
+  margin: 8px;
+}
+.iconClr{
+  color: #17a2b8;
+}
+.aboutButton {
+  border-radius: 30px;
+  color: #fff;
+  padding: 5px 10px;
+  font-family: 'Nunito', sans-serif;
+  background-color: #17a2b8;
+  border-color: #17a2b8;
+  padding: 10px 25px;
+}
+/* popular classes */
+
+.pcHeading h6 {
+  color: #17a2b8;
+  margin-top: 8%;
+  font-size: 17px;
+  font-weight: 400;
+}
+.pcHeading h6::before {
+  height: 2px;
+  width: 50px;
+  background: #17a2b8;
+  display: inline-block;
+  vertical-align: middle;
+  content: '';
+}
+.pcHeading h6::after{
+  height: 2px;
+  width: 50px;
+  background: #17a2b8;
+  display: inline-block;
+  content: '';
+  vertical-align: middle
+}
+.pcHeading h2 {
+  color: #00394f;
+  font-family: "Handlee", cursive;
+  font-weight: bold;
+  font-size: 42px;
+  line-height: 71px;
+}
+.pcTitle {
+  font-family: "Handlee", cursive;
+  font-weight: bold;
+  line-height: 1.2;
+  color: #00394f;
+}
+.pcText {
+  font-family: "Nunito", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #666666;
+  text-align: center;
+}
+.tableText1{
+    font-family: "Nunito", sans-serif;
+    font-size: 18px;
+    line-height: normal;
+    color: #666666;
+}
+.tableText2 {
+  font-family: "Nunito", sans-serif;
+  font-size: 17px;
+  font-weight: 400;
+  line-height: normal;
+  color: #666666;
+}
+/* book a seat */
+.bookSeat h5 {
+  color: #17a2b8;
+  font-size: 18px;
+  font-weight: 400;
+}
+.bookSeat h2{
+  font-size: 40px;
+    font-family: "Handlee", cursive;
+    font-weight: bold;
+    color: #00394f;
+}
+.bookSeat h5::after{
+  height: 2px;
+  width: 50px;
+  background: #17a2b8;
+  display: inline-block;
+  content: '';
+  vertical-align: middle;
+}
+.bkContent {
+  color: #666666;
+}
+.bgColor{
+  background-color: #00394f !important;
+}
+.cardbodyClr{
+background-color: #17a2b8;
+}
+.bkbtnClr {
+  background-color: #00394f;
+  padding: 10px 123px;
+  border-radius: 30px;
+}
+/* teachers */
+.teacherText h6{
+   color: #17a2b8;
+  margin-top: 8%;
+  font-size: 17px;
+  font-weight: 400;
+}
+.teacherText h6::before{
+  height: 2px;
+  width: 50px;
+  background: #17a2b8;
+  display: inline-block;
+  content: '';
+  vertical-align: middle;
+}
+.teacherText h6::after{
+  height: 2px;
+  width: 50px;
+  background: #17a2b8;
+  display: inline-block;
+  content: '';
+  vertical-align: middle;
+}
+
+.teacherText h2{
+  color: #00394f;
+  font-family: "Handlee", cursive;
+  font-weight: bold;
+  font-size: 42px;
+  line-height: 71px;
+}
+.circle{
+  border-radius: 100%;
+}
+.teacherContent h4{
+  color: #00394f;
+  font-family: "Handlee", cursive;
+  font-weight: bold;
+  font-size: 25px;margin-top: 25px;
+}
+.teacherImgtext h6 {
+  font-family: "Nunito", sans-serif;
+  font-size: 18px;
+  font-weight: normal;
+  color: #666666;
+  background-color: #fff;
+}
+/* testimonial */
+.testimonialHeading h6{
+  color: #17a2b8;
+  margin-top: 8%;
+  font-size: 17px;
+  font-weight: 400;
+}
+.testimonialHeading h2{
+  color: #00394f;
+  font-family: "Handlee", cursive;
+  font-weight: bold;
+  font-size: 42px;
+  line-height: 71px;
+}
+.testimonialHeading h6::before{
+  height: 2px;
+  width: 50px;
+  background: #17a2b8;
+  display: inline-block;
+  content: '';
+  vertical-align: middle;
+}
+.testimonialHeading h6::after{
+  height: 2px;
+  width: 50px;
+  background: #17a2b8;
+  display: inline-block;
+  content: '';
+  vertical-align: middle;
+}
+.quoteClr{
+  color: #17a2b8;
+}
+.testmonial h5{
+  color: #00394f;
+  font-family:"Handlee", cursive ;
+  font-weight: bold;
+}
+.testmonial p{
+  color: #666666;
+  font-style: italic;
+  font-weight: 400;
+}
+/* blog */
+.blogHeading h6{
+  color: #17a2b8;
+  margin-top: 8%;
+  font-size: 17px;
+  font-weight: 400;
+}
+.blogHeading h2{
+  color: #00394f;
+  font-family: "Handlee", cursive;
+  font-weight: bold;
+  font-size: 42px;
+  line-height: 71px;
+}
+.blogHeading h6::before{
+  height: 2px;
+  width: 50px;
+  background: #17a2b8;
+  display: inline-block;
+  content: '';
+  vertical-align: middle;
+}
+.blogHeading h6::after{
+  height: 2px;
+  width: 50px;
+  background: #17a2b8;
+  display: inline-block;
+  content: '';
+  vertical-align: middle;
+}
+.blogText h4{
+  font-family: "Handlee", cursive;
+  font-weight: bold;
+  line-height: 1.2;
+  color: #00394f;
+}
+.blText{
+  color: #666666;
+}
+
+/* footer */
+.marginTop{
+  margin-top: 5%;
+}
+.footerBg{
+  background-color: #00394f ;
+}
+.infoTxt{
+  font-family:'Handlee';
+  font-weight: bolder;
+}
+.smtbtnClr {
+  background-color: #17a2b8;
+  padding: 15px 109px;
+  border-radius: 30px;
+}
+.linkTxt{
+  color: #17a2b8;
+  text-decoration: none;
+  font-size: 17px;
+  font-weight: 500;
+}
+.btn-outline-primary:hover {
+  color: #fff !important;
+  background-color:  #17a2b8 !important ;
+  border-color: #17a2b8 !important;
+}
+.btn-outline-primary {
+  color:  #17a2b8 !important ;
+  border-color: #17a2b8 !important;
+}
+.linkTxt:hover{
+  color:#0f6674 !important;
+}
+a:hover {
+  color:#0f6674 !important;
+}
